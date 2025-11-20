@@ -50,9 +50,9 @@ const Navbar = () => {
           </div>
 
           <div className="hidden md:flex items-center space-x-4">
-             <a href="#" className="text-gray-400 hover:text-white transition-colors"><Github size={20} /></a>
-             <a href="#" className="text-gray-400 hover:text-white transition-colors"><Linkedin size={20} /></a>
-             <a href="#" className="text-gray-400 hover:text-white transition-colors"><Mail size={20} /></a>
+             <a href="https://github.com/Ramkushal" className="text-gray-400 hover:text-white transition-colors"><Github size={20} /></a>
+             <a href="https://www.linkedin.com/in/ram-kushal-reddy-b34943212/" className="text-gray-400 hover:text-white transition-colors"><Linkedin size={20} /></a>
+             <a href="mailto:ramkushalreddy@gmail.com" className="text-gray-400 hover:text-white transition-colors"><Mail size={20} /></a>
           </div>
 
           <div className="md:hidden">
