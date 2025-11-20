@@ -1,19 +1,20 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ExternalLink, Github, X } from 'lucide-react';
+import pomodoroImg from '../assets/pomodoro.png'
 
 const Projects = () => {
   const [selectedProject, setSelectedProject] = useState(null);
 
   const projects = [
     {
-      title: 'E-Commerce Platform',
-      description: 'A full-featured online store with cart functionality, payment integration, and user authentication.',
-      longDescription: 'This e-commerce platform was built to provide a seamless shopping experience. It features a real-time shopping cart, secure payment processing via Stripe, and a comprehensive admin dashboard for inventory management. The frontend is optimized for performance and SEO.',
-      tags: ['React', 'Node.js', 'MongoDB', 'Stripe'],
-      image: 'https://images.unsplash.com/photo-1557821552-17105176677c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80',
-      github: '#',
-      demo: '#',
+      title: 'Pomodoro timer',
+      description: 'A browser-based Pomodoro productivity tool with an integrated task management system (add, edit, complete, delete tasks).',
+      longDescription: 'Implemented interactive timers, DOM manipulation, and responsive UI components to improve usability and workflow efficiency. Applied JavaScript state handling, event-driven logic, and modular design for maintainable code. Used Git for version control to manage updates, track changes, and support collaborative development.',
+      tags: ['HTML','CSS', 'JavaScript'],
+      image: pomodoroImg,
+      github: 'https://github.com/Ramkushal/Pomodoro-timer',
+      demo: 'https://ramkushal.github.io/Pomodoro-timer/',
     },
     {
       title: 'Task Management App',

@@ -21,7 +21,7 @@ const Hero = () => {
             transition={{ delay: 0.3 }}
             className="text-5xl md:text-7xl font-bold text-white mt-2 mb-4"
           >
-            [Your Name]
+            P Ram Kushal
           </motion.h1>
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
